@@ -51,6 +51,7 @@ public class Contacts
     	case 5:
     		sc.close();
     		System.exit(0);
+            break;
     		
     	default:
     		log.info("Invalid Choice");
