@@ -40,9 +40,9 @@ public class LinkedList {
 			String c = "Contact Name: " + temp.contactname;
 			String p = "Phone Number: " + temp.phonenumber;
 			String e = "Email Address: "+ temp.emailaddress;
-			log.info(c +"\n"+p +"\n"+ e);
-			//log.info(p);
-			//log.info(e);
+			log.info(c);
+			log.info(p);
+			log.info(e);
 			temp=temp.next;
 		}
 		}
@@ -95,7 +95,7 @@ public class LinkedList {
 				mark=1;
 				head=temp.next;
 				log.info(str);
-				break;
+				temp = null;
 			}
 			else if(deletecontact.equals(temp.contactname))
 			{
