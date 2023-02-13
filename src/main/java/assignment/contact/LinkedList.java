@@ -102,7 +102,6 @@ public class LinkedList {
 					mark=1;
 					log.info(str);
 					prev.next=prev.next.next;
-					head = prev;
 					break;
 				
 			}
